@@ -39,6 +39,10 @@ CHERISH_BUILD_TYPE:= OFFICIAL
 # FOD Animation
 EXTRA_FOD_ANIMATIONS := true
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cherish.maintainer=Chandu
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_fajita
 PRODUCT_DEVICE := fajita
