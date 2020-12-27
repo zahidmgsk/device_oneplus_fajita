@@ -36,9 +36,6 @@ CHERISH_WITHGAPPS := true
 # Official
 CHERISH_BUILD_TYPE:= OFFICIAL
 
-# FOD Animation
-EXTRA_FOD_ANIMATIONS := true
-
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cherish.maintainer=Chandu
