@@ -27,6 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # FOD Animation
 EXTRA_FOD_ANIMATIONS := true
 
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
