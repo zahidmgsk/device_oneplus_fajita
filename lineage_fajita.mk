@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# FOD Animation
+EXTRA_FOD_ANIMATIONS := true
+
 PRODUCT_NAME := lineage_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
