@@ -22,6 +22,9 @@ DEVICE_PATH := device/oneplus/fajita
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus6T
 
+# Kernel
+TARGET_KERNEL_CONFIG := kronic_defconfig
+
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.oneplus_fajita
 
@@ -30,3 +33,4 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
+
