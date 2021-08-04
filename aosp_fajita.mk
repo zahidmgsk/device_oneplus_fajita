@@ -28,6 +28,9 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Gapps
 #WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
