@@ -30,6 +30,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# GoogleCameraGo
+TARGET_SHIP_GCAM_GO := false
+
 # Gapps
 #WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
