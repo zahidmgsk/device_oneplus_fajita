@@ -24,7 +24,6 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
-
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -36,6 +35,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
+
+# Pixel charger images
+USE_PIXEL_CHARGER_IMAGES := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_fajita
