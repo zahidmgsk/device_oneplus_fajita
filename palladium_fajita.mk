@@ -25,7 +25,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 
 # Official
-PALLADIUM_BUILDTYPE := OFFICIAL
+PALLADIUM_BUILD_TYPE := OFFICIAL
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
