@@ -53,4 +53,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus6T \
-    PRODUCT_NAME=OnePlus6T
+    PRODUCT_NAME=OnePlus6T \
+    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.210905.001 7511028 release-keys"
+
+BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.210905.001/7511028:user/release-keys
